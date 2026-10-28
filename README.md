@@ -1,102 +1,109 @@
-# EV Charging Intelligence & Revenue Optimization
+# EV_Charging_Intelligence_&_Revenue_Optimization
 
-An end-to-end data analytics project focused on understanding EV charging demand, revenue performance, station utilization, and expansion opportunities using Python, SQL, and Power BI.
+An end-to-end data analytics project focused on EV charging demand, revenue performance, station utilization, and expansion planning using Python, SQL, and Power BI.
 
 ## Project Overview
 
-Electric vehicle charging networks need to understand when customers charge their vehicles, which stations perform well, how revenue varies over time, and where operational improvements may be needed.
+Electric vehicle charging networks need to understand charging demand, revenue trends, station performance, and opportunities to improve operational efficiency.
 
-This project analyzes a dataset containing **50,000+ EV charging sessions across 30 charging stations** to explore charging patterns, revenue trends, station performance, and expansion priorities.
+**EV Charging Intelligence & Revenue Optimization** is a data analytics project that explores EV charging session data to identify patterns in charging activity, compare station performance, analyze revenue, and support data-driven expansion planning.
 
-The project follows a complete analytics workflow, from data preparation and exploratory analysis to SQL-based business analysis and interactive Power BI dashboards.
+The project covers the complete analytics workflow, including data preparation, exploratory data analysis, SQL analysis, KPI development, and interactive Power BI dashboards.
 
-> **Note:** The dataset is used for portfolio analysis and should not be interpreted as verified operational data from a real EV charging network.
+### Project Highlights
 
-## Project Objectives
+- Analyzed a dataset containing **50,000+ EV charging sessions across 30 charging stations**.
+- Used Python, Pandas, and NumPy for data preparation and exploratory analysis.
+- Applied SQL aggregations, Common Table Expressions (CTEs), and window functions for business analysis.
+- Developed five Power BI dashboard pages covering different aspects of EV charging operations.
+- Used KPIs, filters, and visual comparisons to explore station performance and charging trends.
+- Created a priority-based analytical view to support evaluation of potential station expansion opportunities.
 
-- Analyze charging session patterns and demand trends.
-- Evaluate revenue performance across charging stations and time periods.
-- Compare station utilization and operational efficiency.
-- Identify high-performing and underperforming stations.
-- Develop a priority-based framework for evaluating potential expansion opportunities.
-- Present key performance indicators through interactive Power BI dashboards.
+*Dataset note: The dataset is used for portfolio analysis and should not be interpreted as verified operational data from a real EV charging network.*
+
+## Business Objectives
+
+- Understand charging session patterns and demand trends.
+- Analyze revenue performance across stations and time periods.
+- Compare station-level performance and utilization indicators.
+- Identify differences between high-performing and underperforming stations.
+- Explore potential charging station expansion priorities.
+- Present analytical findings through interactive dashboards.
 
 ## Tools & Technologies
 
-| Tool | Purpose |
+| Technology | Purpose |
 |---|---|
-| Python | Data processing and exploratory analysis |
+| Python | Data analysis and processing |
 | Pandas | Data cleaning and transformation |
-| NumPy | Numerical operations and analysis |
-| Jupyter Notebook | Analysis workflow and documentation |
-| SQL / PostgreSQL | Business queries and performance analysis |
-| CTEs | Organizing multi-step SQL analysis |
+| NumPy | Numerical analysis |
+| Jupyter Notebook | Exploratory analysis |
+| SQL / PostgreSQL | Business queries and analytical analysis |
+| CTEs | Organizing multi-step SQL queries |
 | Window Functions | Ranking and comparing station performance |
-| Power BI | Interactive dashboards and visual analytics |
-| DAX | KPI calculations and analytical measures |
-| Power Query | Data preparation and transformation |
+| Power BI | Interactive dashboard development |
+| DAX | KPI calculations and measures |
+| Power Query | Data transformation and preparation |
 
 ## Project Workflow
 
 1. **Data Preparation:** Reviewed the raw dataset and prepared the data for analysis.
-2. **Data Cleaning:** Checked data quality, consistency, and key fields.
-3. **Exploratory Data Analysis:** Used Python, Pandas, and NumPy to examine charging patterns and key variables.
-4. **SQL Analysis:** Applied aggregations, CTEs, joins where required, and window functions to answer business questions.
-5. **Data Modeling:** Prepared the analytical data for Power BI reporting.
-6. **Dashboard Development:** Built five Power BI dashboard pages for different business perspectives.
-7. **Business Interpretation:** Used KPIs and visual comparisons to highlight performance patterns and potential areas for improvement.
+2. **Data Cleaning:** Checked data quality, consistency, and relevant fields.
+3. **Exploratory Data Analysis:** Used Python, Pandas, and NumPy to explore charging patterns and key variables.
+4. **SQL Analysis:** Used aggregations, CTEs, and window functions to analyze business performance.
+5. **Data Modeling:** Prepared the analytical data for reporting in Power BI.
+6. **Dashboard Development:** Created five dashboard pages to explore charging operations from different perspectives.
+7. **Business Analysis:** Used KPIs and visual comparisons to examine revenue, demand, utilization, and expansion priorities.
 
-## Power BI Dashboard Suite
+## Power BI Dashboards
 
-The project includes five dashboard pages designed to provide different views of EV charging performance.
+The project includes five dashboard pages designed to provide a comprehensive view of EV charging performance.
 
 ### 1. Executive Overview
 
-Provides a high-level summary of charging activity and overall performance using key metrics and trend visualizations.
+Provides a high-level summary of charging activity and key performance indicators.
 
 ![Executive Overview Dashboard](reports/dashboard_screenshots/01_executive_overview.png)
 
-### 2. Revenue Performance
+### 2. Station Performance
 
-Examines revenue trends and compares revenue performance across stations and relevant time periods.
+Compares station-level performance to explore differences in charging activity and operational outcomes.
 
-![Revenue Performance Dashboard](reports/dashboard_screenshots/02_station_performance.png)
+![Station Performance Dashboard](reports/dashboard_screenshots/02_station_performance.png)
 
-### 3. Charging Demand Analysis
+### 3. Demand Intelligence
 
-Explores charging session patterns across dates, months, and available time-based categories to understand demand variations.
+Explores charging demand patterns across available time periods to understand changes in charging activity.
 
-![Charging Demand Dashboard](reports/dashboard_screenshots/03_demand_intelligence.png)
+![Demand Intelligence Dashboard](reports/dashboard_screenshots/03_demand_intelligence.png)
 
-### 4. Station Utilization & Operational Efficiency
+### 4. Revenue Intelligence
 
-Compares station-level activity and utilization-related indicators to identify differences in operational performance.
+Analyzes revenue trends and compares revenue performance across stations and relevant time periods.
 
-![Station Utilization Dashboard](reports/dashboard_screenshots/04_revenue_intelligence.png)
+![Revenue Intelligence Dashboard](reports/dashboard_screenshots/04_revenue_intelligence.png)
 
-### 5. Expansion & Priority Analysis
+### 5. Expansion Strategy
 
-Uses station performance indicators and priority-based comparisons to support further evaluation of potential expansion opportunities.
+Uses station performance indicators and priority-based analysis to support the evaluation of potential expansion opportunities.
 
-![Expansion and Priority Dashboard](reports/dashboard_screenshots/05_expansion_strategy.png)
+![Expansion Strategy Dashboard](reports/dashboard_screenshots/05_expansion_strategy.png)
 
 ## Key Analytical Areas
 
 - Total charging sessions and revenue analysis.
 - Average charging duration and session-level comparisons.
-- Revenue performance by station and time period.
-- Charging demand trends and peak-period analysis.
-- Station-level performance ranking using SQL window functions.
-- Utilization and operational efficiency comparisons.
+- Revenue trends across stations and time periods.
+- Charging demand and time-based patterns.
+- Station performance ranking using SQL window functions.
+- Utilization and operational efficiency indicators.
 - Priority-based station evaluation for potential expansion.
-- Interactive exploration using Power BI slicers and filters.
-
-*The exact KPIs and findings depend on the available dataset fields and the measures implemented in the Power BI model.*
+- Interactive exploration through Power BI filters and slicers.
 
 ## Repository Structure
 
 ```text
-EV-Charging-Intelligence-&-Revenue-Optimization/
+EV_Charging_Intelligence_&_Revenue_Optimization/
 │
 ├── data/
 │   ├── ev_charging_sessions_raw.csv
@@ -112,7 +119,7 @@ EV-Charging-Intelligence-&-Revenue-Optimization/
 │
 ├── reports/
 │   ├── dashboard_screenshots/
-│   │   ├── 01-executive-overview.png
+│   │   ├── 01_executive_overview.png
 │   │   ├── 02_station_performance.png
 │   │   ├── 03_demand_intelligence.png
 │   │   ├── 04_revenue_intelligence.png
@@ -131,52 +138,52 @@ EV-Charging-Intelligence-&-Revenue-Optimization/
 
 ## How to Explore the Project
 
-### View the Power BI Dashboard
+### Power BI Dashboard
 
-1. Open the `powerbi` folder.
-2. Download `EV_Charging_Intelligence_Revenue_Analytics.pbix`.
-3. Open the file using Microsoft Power BI Desktop.
-4. Use the available slicers and filters to explore the dashboard pages.
+1. Open the `powerbi/` folder.
+2. Download `EV_Charging_Intelligence_&_Revenue_Optimization.pbix`.
+3. Open it using Microsoft Power BI Desktop.
+4. Explore the dashboard pages and use the available filters and slicers.
 
-### Explore the Python Analysis
+### Python Analysis
 
-1. Open the relevant `.ipynb` files in Jupyter Notebook.
+1. Open the relevant Jupyter Notebook.
 2. Install the required Python libraries.
-3. Update the dataset paths if necessary.
-4. Run the notebook cells in order.
+3. Ensure the dataset paths match your local folder structure.
+4. Run the notebook cells in sequence.
 
-### Explore the SQL Queries
+### SQL Analysis
 
-1. Open the `.sql` files in the `sql` folder.
+1. Open the SQL scripts in the `sql/` folder.
 2. Review the basic and advanced analytical queries.
-3. Configure your database connection and table names to match your local setup before executing queries.
+3. Configure your PostgreSQL database and table names as required before execution.
 
-### Read the Dashboard Report
+### Dashboard Report
 
-Open `reports/Dashboard_Report.pdf` for the dashboard report and `reports/REPORT.md` for the detailed written documentation.
+- `reports/dashboard_report.pdf` contains the dashboard report.
+- `reports/REPORT.md` provides the detailed written project report.
 
 ## Skills Demonstrated
 
-- Data cleaning and preparation
+- Data cleaning and transformation
 - Exploratory Data Analysis (EDA)
 - SQL querying and analytical problem-solving
-- Aggregations, CTEs, and window functions
+- CTEs, aggregations, and window functions
 - KPI development and DAX measures
-- Power BI data modeling and visualization
-- Business performance analysis
-- Translating analytical results into business-oriented insights
+- Power BI dashboard design and data visualization
+- Data modeling and business performance analysis
+- Translating data into business-oriented insights
 
-## Future Improvements
+## Future Enhancements
 
 - Integrate additional charging station and geographic data.
-- Develop demand forecasting models using historical charging patterns.
-- Add more detailed station-level profitability analysis where the required cost data is available.
-- Evaluate expansion scenarios using additional location, demand, and infrastructure data.
-- Automate data refresh and reporting workflows.
+- Explore demand forecasting using historical charging patterns.
+- Extend station-level profitability analysis when cost data is available.
+- Evaluate expansion scenarios using location, demand, and infrastructure information.
+- Explore automated data refresh and reporting workflows.
 
 ## Author
 
 **Shagun Chauhan**
 
 Aspiring Data Analyst | Python | SQL | Power BI | Excel
-
