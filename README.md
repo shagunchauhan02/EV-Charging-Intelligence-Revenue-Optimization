@@ -63,31 +63,31 @@ The project includes five dashboard pages designed to provide a comprehensive vi
 
 Provides a high-level summary of charging activity and key performance indicators.
 
-![Executive Overview Dashboard](reports/dashboard_screenshots/01_executive_overview.png)
+![Executive Overview](reports/dashboard_screenshots/01_Executive_Overview.png)
 
 ### 2. Station Performance
 
 Compares station-level performance to explore differences in charging activity and operational outcomes.
 
-![Station Performance Dashboard](reports/dashboard_screenshots/02_station_performance.png)
+![Station Performance](reports/dashboard_screenshots/02_Station_Performance.png)
 
 ### 3. Demand Intelligence
 
 Explores charging demand patterns across available time periods to understand changes in charging activity.
 
-![Demand Intelligence Dashboard](reports/dashboard_screenshots/03_demand_intelligence.png)
+![Demand Intelligence](reports/dashboard_screenshots/03_Demand_Intelligence.png)
 
 ### 4. Revenue Intelligence
 
 Analyzes revenue trends and compares revenue performance across stations and relevant time periods.
 
-![Revenue Intelligence Dashboard](reports/dashboard_screenshots/04_revenue_intelligence.png)
+![Revenue Intelligence](reports/dashboard_screenshots/04_Revenue_Intelligence.png)
 
 ### 5. Expansion Strategy
 
 Uses station performance indicators and priority-based analysis to support the evaluation of potential expansion opportunities.
 
-![Expansion Strategy Dashboard](reports/dashboard_screenshots/05_expansion_strategy.png)
+![Expansion Strategy](reports/dashboard_screenshots/05_Expansion_Strategy.png)
 
 ## Key Analytical Areas
 
